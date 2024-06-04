@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#content-logo{
+	width: 100%;
+	display: flex; 
+	background-color: #fff;
+	justify-content: center; 
+	align-items: center;
+	height: 130px;
+}
+
+.content-img-logo{
+	margin-left: 30px;
+
+}
+
+#content-menu{
+	width: 100%;
+	height: 60px;
+	background-color: #09402C;
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+}
+
+.content-menu-text{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.content-menu-text ul li{
+	color: #fff;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	float: left;
+	list-style: none;
+	margin-right: 30px;
+	padding-left: 30px;
+}
+
+.content-menu-text ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.content-menu-text ul li a:hover{
+	color: #FFFD77;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.content-menu-ico{
+	width: 1%;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+
+}
+
+.content-menu-ico div{
+
+	margin-right: 25px;
+}
+
+.menu-ico{
+	color: #fff;
+	font-size: 18px;
+}
+
+.content-frase-ico{
+	font-size: 40px;
+	color: #FFFFFF;
+	display: flex;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	align-items: center;
+
+}
+
+
+.encabezado-img{
+	background-image: url(../imagenes/fondoinka.jpg);
+	background-color: rgb(50, 50, 50 );
+	background-blend-mode: soft-light;
+	height: 550px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;;
+	background-position: center;
+}
+
+}
+
+.encabezado-img h1{
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+
+}
+
+
+
+#fi-nal{
+	display: flex;
+
+}
+.titulo-tres{
+	display: flex;
+	height: 500px;
+	color: #1FB341;
+	justify-content: center;
+	margin: auto;
+	flex-direction: column;
+	font-family: "Lato", sans-serif;
+	align-items: center;
+}
+
+.titulo-tres h1 {
+	padding: 30px;
+}
+
+.titulo-tres p{
+	color: #898989;
+}
+
+.imag-j{
+	width: 370px;
+	height: 450px;
+	margin: 70px;
+	
+}
+.titulo-dos{
+	display: flex;
+	background-image: url(../imagenes/fon.jpg);
+	background-color: rgb(50, 50, 50 );
+	background-blend-mode: soft-light;
+	height: 450px;
+	color: #fff;
+	justify-content: center;
+	flex-direction: column;
+	text-align: right;
+	font-family: "Lato", sans-serif;
+	background-size: cover;
+	padding: 50px;
+
+}
+
+.titulo-dos h1{
+	padding: 25px;
+}
+
+.titulo-uno{
+	display: flex;
+	
+	height: 200px;
+	color: #1FB341;
+	justify-content: flex-end;
+	margin: auto;
+	flex-direction: column;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+
+}
+
+#me-dio{
+	display: flex;
+	justify-content: center;
+}
+
+.imag-f{
+	height: 150px;
+	width: 150px;
+	margin: 50px;
+	
+}
+
+body{
+	background-color: #fff;
+}
+.card-container-cuerpo{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card-img img{
+	width: 50px;
+	margin-left: 20px;
+	margin-right: 30px;
+	height: auto;
+	display: flex;
+	align-self: center;
+}
+.card-img-ico-uwu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+}
+
+.b23-item h3 {
+  margin: auto;
+  color: #51515;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.47;
+  font-size:14px;
+}
+
+
+
+#fe-chas{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 200px;
+	color: #898989;
+	font-family: "Lato", sans-serif;
+}
+
+.nu-meros{
+	text-align: center;
+}
+
+.parra-fo{
+	display: flex;
+	justify-content: center
+}
+
+.titulo-final{
+	display: flex;
+	height: 250px;
+	color: #1FB341;
+	justify-content: center;
+	margin: auto;
+	flex-direction: column;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	margin-top: 100px;
+
+}
+
+.titulo-final h1{
+	padding: 60px;
+	letter-spacing: 2px;
+}
+
+.titulo-final p{
+	color: #898989;
+	font-family: "Lato", sans-serif;
+}
+
+
+#content-foot{
+    width: 100%;
+    background-color:#000;
+    height: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+
+}
+#content-green{
+    width: 100%;
+    background-color:#09402C;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+#content-c1{
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content-logo2{ 
+    width: 100%;
+    display: flex; 
+    background-color: #09402C;
+    height:130px ;
+}
+
+.content-foot-ico{
+    justify-content: center;
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 9px;
+
+}
+
+#content-textocent{
+    display: flex; 
+    justify-content: left;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#content-men{
+    margin-left: 10px;
+    margin-top: 35px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+
+
+}
+
+.content-logo1{
+    padding-right: 50px;
+    padding-top: 48px;
+    width: 40%;
+}
+
+ .content-help{
+    margin-left: 40px;
+    margin-top: 35px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+  }
+
+.content-cod{
+
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #fff;
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    justify-content: center;
+    justify-items: center;
+
+ }
+
+
+#content-logo2{ 
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height:80px ;
+
+
+  
+}
+
+.content-foot-text ul li{
+    list-style: none;
+}    
+
+
+.content-foot-text ul li:hover{
+    color: #FFFD77;
+    cursor: pointer;
+    justify-content: right;
+    font-family: "Lato", sans-serif;
+    font-weight: 900; 
+
+
+  
+}
+
+.content-center{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
